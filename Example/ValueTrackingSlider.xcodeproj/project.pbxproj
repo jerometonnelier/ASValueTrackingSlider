@@ -178,6 +178,11 @@
 				CLASSPREFIX = AS;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Alan Skipp";
+				TargetAttributes = {
+					E742B0821812EC4E005B188F = {
+						LastSwiftMigration = 0800;
+					};
+				};
 			};
 			buildConfigurationList = E742B07E1812EC4E005B188F /* Build configuration list for PBXProject "ValueTrackingSlider" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -331,6 +336,7 @@
 				INFOPLIST_FILE = "ValueTrackingSlider/ValueTrackingSlider-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -349,6 +355,7 @@
 				INFOPLIST_FILE = "ValueTrackingSlider/ValueTrackingSlider-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
